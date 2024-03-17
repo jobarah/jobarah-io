@@ -36,7 +36,7 @@
     }
 
     .spotify-qr {
-      width: 175px;
+      width: 100%;
       height: 75px;
     }
   }
@@ -126,6 +126,10 @@
     .bio {
       align-items: center;
       width: auto;
+    }
+
+    .spotify-qr {
+      width: 175px;
     }
 
     .visual-intro {

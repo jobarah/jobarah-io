@@ -126,6 +126,18 @@
     .bio {
       align-items: center;
       width: auto;
+
+      h3 {
+        font-size: 35px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+
+      .spotify-qr {
+        margin: 30px 0;
+      }
     }
 
     .visual-intro {
@@ -150,6 +162,10 @@
         position: relative;
         text-wrap: wrap;
         text-align: center;
+      }
+
+      .contact-me {
+        font-size: 22px;
       }
     }
   }

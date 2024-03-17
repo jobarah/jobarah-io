@@ -5,6 +5,7 @@ import { FaEnvelope } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import { FaAddressCard } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -44,6 +45,10 @@ export default function Home() {
               <li>
                 <FaEnvelope className='contact-item'/>
                 <a href="mailto:jobarah01@gmail.com">jobarah01@gmail.com</a>
+              </li>
+              <li>
+                <FaAddressCard className='contact-item'/>
+                <a href="https://drive.google.com/file/d/1sCwYUirrffqH3xGjl3ho8O0qQXTQhpEl/view">My Resume</a>
               </li>
             </ul>
           </div>

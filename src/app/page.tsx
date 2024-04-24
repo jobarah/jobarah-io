@@ -9,9 +9,9 @@ import { FaAddressCard } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row items-center justify-between p-24">
-      <div className="record-wrapper">
-        <div className="bio">
+    <main className="flex min-h-screen flex-row items-center sm:px-5 md:p-24">
+      <div className="record-wrapper flex-col md:flex-row">
+        <div className="bio items-center md:justify-evenly">
           <h3>Josue Enamorado</h3>
           <p>
             Hi there, I&apos;ve been doing software development since 2013, but
@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <NewCodePlaylist className="spotify-qr" />
         </div>
-        <div className="visual-intro">
+        <div className="visual-intro flex flex-col md:flex-row items-center">
           <div className="title">Software Developer</div>
           <div className="logo">
             <div className="je">

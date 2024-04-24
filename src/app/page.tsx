@@ -9,7 +9,7 @@ import { FaAddressCard } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row items-center sm:px-5 md:p-24">
+    <main className="flex min-h-screen flex-row items-center p-24">
       <div className="record-wrapper flex-col md:flex-row">
         <div className="bio items-center md:justify-evenly">
           <h3>Josue Enamorado</h3>

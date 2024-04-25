@@ -90,11 +90,12 @@
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .record-wrapper {
     height: 600px;
     max-width: unset;
-    width: 1200px;
+    /* width: 1200px; */
+    width: 600px;
     align-items: stretch;
 
     .bio {
@@ -118,5 +119,17 @@
         width: 500px;
       }
     }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .record-wrapper {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .record-wrapper {
+    width: 1200px;
   }
 }

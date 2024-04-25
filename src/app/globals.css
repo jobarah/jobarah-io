@@ -26,6 +26,4 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background-solid);
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
